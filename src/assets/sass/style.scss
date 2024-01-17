@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+// setting
+@import 'resets.scss';
+@import 'fonts.scss';
+@import 'common.scss';
+@import 'vars.scss';
+
+// layout
+@import 'layout/header.scss';
+@import 'layout/main.scss';
+@import 'layout/footer.scss';
+
+// blog
+@import 'blog/blog.scss';
