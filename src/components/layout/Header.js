@@ -11,7 +11,7 @@ export default function Header() {
                     <nav className='nav'>
                         <ul>
                             <li>
-                                <Link href="/blogList">Blog</Link>
+                                <Link className="active" href="/blogList">Blog</Link>
                             </li>
                             <li>
                                 <Link href="/notice">Notice</Link>
@@ -25,8 +25,9 @@ export default function Header() {
                 <div className='right'>
                     <ul>
                         <li><Link href="/login">Login</Link></li>
-                        <li><Link href="/register">Join</Link></li>
+                        <li><Link href="/join">Join</Link></li>
                     </ul>
+                    <div className="light"></div>
                 </div>
             </div>
         </header>
